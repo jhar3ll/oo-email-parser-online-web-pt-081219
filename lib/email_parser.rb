@@ -12,4 +12,4 @@ class EmailAddressParser
   end 
   
   def parse
-    email.split(/)
+    email.split(/,|' '/)
